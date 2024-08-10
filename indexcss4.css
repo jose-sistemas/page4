@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:rgb(240, 240, 240);
+}
+#navbar {
+    position: fixed;
+    margin-left:-200px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:rgba(222, 49, 99,0.5);
+    top:0;
+
+}
+
+header{
+    text-align:center;
+}
+
+.title{
+    font-size:20px;
+}
+main{
+    margin-left:200px;
+    
+}
+
+@media (max-height: 768px) {
+    #navbar{
+        height: 50%;
+    }
+}
